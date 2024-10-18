@@ -18,3 +18,5 @@ def productview(request):
     return HttpResponse("We are at productview")
 def checkout(request):
     return HttpResponse("We are at checkout")
+# def home(request):
+#     return render(request, 'home.html')
